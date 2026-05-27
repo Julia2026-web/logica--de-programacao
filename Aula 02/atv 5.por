@@ -6,7 +6,7 @@ programa {
     real comissaoAvista
     real comissaoParcelada
 
-    escreva("Dígite o valor do produto: ")
+    escreva("Digite o valor do produto: ")
     leia(valorOriginal)
 
     valorDesconto = valorOriginal - (valorOriginal * 0.1)
