@@ -10,7 +10,7 @@ programa {
     escreva("Digite o segundo ângulo: ")
     leia(angulo2)
 
-    angulo3 = 180.0 * (angulo1 + angulo2)
+    angulo3 = 180.0 - (angulo1 + angulo2)
 
     escreva("O terceiro ângulo do triângulo é: ", angulo3, " graus")
   }
